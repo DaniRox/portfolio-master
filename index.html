@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.scss">
 
+    <!-- atoms -->
+    <link rel="stylesheet" href="./styles/atoms/fonts.css">
+    
+    <link rel="stylesheet" href="./styles/atoms/measurer.css">
+    <link rel="stylesheet" href="./styles/atoms/measurer--color1.css">
+    <link rel="stylesheet" href="./styles/atoms/measurer-color2.css">
+
     <link rel="icon" href="devchallenges.png" />
 
     <link
@@ -19,17 +26,164 @@
       href="https://devchallenges.io/"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
     <title>Devchallenges</title>
 
   </head>
   <body>
 
+    <div class="card-profil">
+      <img src="" alt="" class="card-profil__img">
+      <div class="card-profil__texts">
+        <div class="card-profile__header-profile">
+          <div class="card-profile__title">
+            <h2 class="title">Billy Pearson</h2>
+            <span class="subtitle">Front-end developer</span>
+          </div>
+          <div class="card-profile__contact">
+            <a href="" class="email"><img src="" alt="" class="icon-email"></a>
+            <a href="" class="phone"><img src="" alt="" class="icon-phone"></a>
+          </div>
+        </div>
+        <p class="card-profil__info">Self-motivated developer, who is willing to learn and create outstanding UI applications.<br>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+      </div>
+    </div>
 
+    <div class="card-technologies">
+      <h2 class="card-technologies__title">Front end</h2>
+      <div class="card-technologies__item">
+        <span>React</span>
+        <div class="measurer">
+          <div class="measurer-color1"></div>
+          <div class="measurer-color2"></div>
+        </div>
+      </div>
+      <div class="card-technologies__item">
+        <span>Javascript</span>
+        <div class="measurer">
+          <div class="measurer-color1"></div>
+          <div class="measurer-color2"></div>
+        </div>
+      </div>
+      <div class="card-technologies__item">
+        <span>CSS</span>
+        <div class="measurer">
+          <div class="measurer-color1"></div>
+          <div class="measurer-color2"></div>
+        </div>
+      </div>
+      <div class="card-technologies__item">
+        <span>Vue</span>
+        <div class="measurer">
+          <div class="measurer-color1"></div>
+          <div class="measurer-color2"></div>
+        </div>
+      </div>
+      <div class="card-technologies__item">
+        <span>Redux</span>
+        <div class="measurer">
+          <div class="measurer-color1"></div>
+          <div class="measurer-color2"></div>
+        </div>
+      </div>
+      <div class="card-technologies__item">
+        <span>React Native</span>
+        <div class="measurer">
+          <div class="measurer-color1"></div>
+          <div class="measurer-color2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-blog">
+      <span class="card-blog__subtitle">Blog</span>
+      <div class="card-blog__header">
+        <h2 class="card-blog__title">How to organize your CSS</h2>
+        <img src="" alt="" class="card-blog__img">
+      </div>
+      <p class="card_blog__text">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.<br>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+      <a href="" class="card-blog__link"></a>
+    </div>
+
+    <div class="card-hobbies">
+      <h2 class="card-hobbies__title">Hobbies</h2>
+      <div class="card-hobbies__hobbie">
+        <img src="" alt="" class="hobbie-img">
+        <h3 class="hobbie-title">Gaming</h3>
+        <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
+      </div>
+      <div class="card-hobbies__hobbie">
+        <img src="" alt="" class="hobbie-img">
+        <h3 class="hobbie-title">Cooking</h3>
+        <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
+      </div>
+      <div class="card-hobbies__hobbie">
+        <img src="" alt="" class="hobbie-img">
+        <h3 class="hobbie-title">Biking</h3>
+        <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
+      </div>
+    </div>
+
+    <div class="card-experiences">
+      <h2 class="card-experiences">Experiences</h2>
+      <div class="card-experiences__experience">
+        <img src="" alt="" class="experience__img">
+        <div class="experience__text">
+          <span class="experience__year">Feb 2017 - Current</span>
+          <h3 class="experience__title">Front-end developer</h3>
+          <p class="experience__txt">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+        </div>
+      </div>
+    <div class="card-experiences__experience">
+        <img src="" alt="" class="experience__img">
+        <div class="experience__text">
+          <span class="experience__year">Aug 2016 - Feb 2018</span>
+          <h3 class="experience__title">Full-stack developer</h3>
+          <p class="experience__txt">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-projects">
+      <h2 class="card-projects__title">Projects (3)</h2>
+      <div class="card-projects__buttons">
+        <button class="buttons__btn">React</button>
+        <button class="buttons__btn">Vue</button>
+        <button class="buttons__btn">Responsive</button>
+      </div>
+    </div>
+
+    <div class="card-project">
+      <img src="" alt="" class="project__img">
+      <span class="project__span"></span>
+      <h3 class="project__title">Recipe Blog</h3>
+      <p class="project__txt">In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
+      <div class="project__buttons">
+        <button class="btn--demo">Demo</button>
+        <button class="btn-code">Code</button>
+      </div>
+    </div>
+
+    <div class="card-project">
+      <img src="" alt="" class="project__img">
+      <span class="project__span"></span>
+      <h3 class="project__title">My Gallery</h3>
+      <p class="project__txt">In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
+      <div class="project__buttons">
+        <button class="btn--demo">Demo</button>
+        <button class="btn-code">Code</button>
+      </div>
+    </div>
+
+    <div class="card-project">
+      <img src="" alt="" class="project__img">
+      <span class="project__span"></span>
+      <h3 class="project__title">Checkout</h3>
+      <p class="project__txt">In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
+      <div class="project__buttons">
+        <button class="btn--demo">Demo</button>
+        <button class="btn-code">Code</button>
+      </div>
+    </div>
 
   </body>
 </html>
