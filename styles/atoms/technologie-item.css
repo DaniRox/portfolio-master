@@ -1,0 +1,7 @@
+.technologie-item{
+    font-family: var(--font-montserrat);
+    color: var(--davys-gray);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+}

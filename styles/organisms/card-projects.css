@@ -1,0 +1,7 @@
+.card-projects{
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 2rem;
+    grid-column-start: span 6;
+    grid-row-start: span 1;
+}

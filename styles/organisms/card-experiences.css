@@ -1,0 +1,7 @@
+.card-experiences{
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 2rem;
+    grid-column-start: span 4;
+    grid-row-start: span 2;
+}
