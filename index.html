@@ -24,18 +24,36 @@
     <link rel="stylesheet" href="./styles/atoms/card-profile__img.css">
     <link rel="stylesheet" href="./styles/atoms/card-technologies__title.css">
     <link rel="stylesheet" href="./styles/atoms/technologie-item.css">
-    
     <link rel="stylesheet" href="./styles/atoms/measurer.css">
     <link rel="stylesheet" href="./styles/atoms/measurer--color1.css">
     <link rel="stylesheet" href="./styles/atoms/measurer-color2.css">
-
+    <link rel="stylesheet" href="./styles/atoms/card-blog__img.css">
+    <link rel="stylesheet" href="./styles/atoms/blog-img.css">
+    <link rel="stylesheet" href="./styles/atoms/card-blog__subtitle.css">
+    <link rel="stylesheet" href="./styles/atoms/card-blog__title.css">
+    <link rel="stylesheet" href="./styles/atoms/card_blog__text.css">
+    <link rel="stylesheet" href="./styles/atoms/card-experiences__title.css">
+    <link rel="stylesheet" href="./styles/atoms/experience__txt.css">
+    <link rel="stylesheet" href="./styles/atoms/experience__year.css">
+    <link rel="stylesheet" href="./styles/atoms/experience__title.css">
+    <link rel="stylesheet" href="./styles/atoms/experience__img.css">
+    <link rel="stylesheet" href="./styles/atoms/card-hobbies__title.css">
+    <link rel="stylesheet" href="./styles/atoms/hobbie-title.css">
+    <link rel="stylesheet" href="./styles/atoms/hobbie-txt.css">
+    <link rel="stylesheet" href="./styles/atoms/div-hobbie-img.css">
+    <link rel="stylesheet" href="./styles/atoms/hobbie-img.css">
+    <link rel="stylesheet" href="./styles/atoms/buttons__btn.css">
     <!-- molecules -->
     <link rel="stylesheet" href="./styles/molecules/card-profile__texts.css">
     <link rel="stylesheet" href="./styles/molecules/card-profile__title.css">
     <link rel="stylesheet" href="./styles/molecules/card-profile__contact.css">
     <link rel="stylesheet" href="./styles/molecules/card-profile__header-profile.css">
     <link rel="stylesheet" href="./styles/molecules/card-technologies__item.css">
-
+    <link rel="stylesheet" href="./styles/molecules/card-blog__header.css">
+    <link rel="stylesheet" href="./styles/molecules/card-experiences__experience.css">
+    <link rel="stylesheet" href="./styles/molecules/experience__text.css">
+    <link rel="stylesheet" href="./styles/molecules/card-hobbies__hobbie.css">
+    <link rel="stylesheet" href="./styles/atoms/card-projects__title.css">
     <!-- organisms -->
     <link rel="stylesheet" href="./styles/organisms/card-profile.css">
     <link rel="stylesheet" href="./styles/organisms/card-technologies.css">
@@ -86,42 +104,42 @@
       <div class="card-technologies__item">
         <span class="technologie-item">React</span>
         <div class="measurer">
-          <div class="measurer-color1"></div>
+          <div class="measurer-color1 measurer-color1--react"></div>
           <div class="measurer-color2"></div>
         </div>
       </div>
       <div class="card-technologies__item">
         <span class="technologie-item">Javascript</span>
         <div class="measurer">
-          <div class="measurer-color1"></div>
+          <div class="measurer-color1 measurer-color1--js"></div>
           <div class="measurer-color2"></div>
         </div>
       </div>
       <div class="card-technologies__item">
         <span class="technologie-item">CSS</span>
         <div class="measurer">
-          <div class="measurer-color1"></div>
+          <div class="measurer-color1 measurer-color1--css"></div>
           <div class="measurer-color2"></div>
         </div>
       </div>
       <div class="card-technologies__item">
         <span class="technologie-item">Vue</span>
         <div class="measurer">
-          <div class="measurer-color1"></div>
+          <div class="measurer-color1 measurer-color1--vue"></div>
           <div class="measurer-color2"></div>
         </div>
       </div>
       <div class="card-technologies__item">
         <span class="technologie-item">Redux</span>
         <div class="measurer">
-          <div class="measurer-color1"></div>
+          <div class="measurer-color1 measurer-color1--redux"></div>
           <div class="measurer-color2"></div>
         </div>
       </div>
       <div class="card-technologies__item">
         <span class="technologie-item">React Native</span>
         <div class="measurer">
-          <div class="measurer-color1"></div>
+          <div class="measurer-color1 measurer-color1--react-native"></div>
           <div class="measurer-color2"></div>
         </div>
       </div>
@@ -130,8 +148,11 @@
     <div class="card-blog">
       <span class="card-blog__subtitle">Blog</span>
       <div class="card-blog__header">
-        <h2 class="card-blog__title">How to organize your CSS</h2>
-        <img src="" alt="" class="card-blog__img">
+        <h2 class="card-blog__title">How to<br>organize your CSS</h2>
+        <div class="card-blog__img">
+          <img src="./assets/_81307a23-4c76-48dd-b04a-f083af765633.jpeg" alt="" class="blog-img">
+        </div>
+        
       </div>
       <p class="card_blog__text">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.<br>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
       <a href="" class="card-blog__link"></a>
@@ -140,26 +161,35 @@
     <div class="card-hobbies">
       <h2 class="card-hobbies__title">Hobbies</h2>
       <div class="card-hobbies__hobbie">
-        <img src="" alt="" class="hobbie-img">
+        <div class="div-hobbie-img">
+          <img src="./assets/gamming.jpg" alt="" class="hobbie-img">
+        </div>
+        
         <h3 class="hobbie-title">Gaming</h3>
         <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
       </div>
       <div class="card-hobbies__hobbie">
-        <img src="" alt="" class="hobbie-img">
+        <div class="div-hobbie-img">
+          <img src="./assets/cooking.jpg" alt="" class="hobbie-img">
+        </div>
+       
         <h3 class="hobbie-title">Cooking</h3>
         <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
       </div>
       <div class="card-hobbies__hobbie">
-        <img src="" alt="" class="hobbie-img">
-        <h3 class="hobbie-title">Biking</h3>
+        <div class="div-hobbie-img">
+          <img src="./assets/reading.jpg" alt="" class="hobbie-img">
+        </div>
+        
+        <h3 class="hobbie-title">Reading</h3>
         <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
       </div>
     </div>
 
     <div class="card-experiences">
-      <h2 class="card-experiences">Experiences</h2>
+      <h2 class="card-experiences__title">Experiences</h2>
       <div class="card-experiences__experience">
-        <img src="" alt="" class="experience__img">
+        <img src="./assets/adidas.png" alt="" class="experience__img">
         <div class="experience__text">
           <span class="experience__year">Feb 2017 - Current</span>
           <h3 class="experience__title">Front-end developer</h3>
@@ -167,7 +197,7 @@
         </div>
       </div>
     <div class="card-experiences__experience">
-        <img src="" alt="" class="experience__img">
+        <img src="./assets/hym.png" alt="" class="experience__img">
         <div class="experience__text">
           <span class="experience__year">Aug 2016 - Feb 2018</span>
           <h3 class="experience__title">Full-stack developer</h3>

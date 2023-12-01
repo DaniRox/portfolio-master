@@ -1,7 +1,6 @@
-.card-technologies__item{
-    width: 8rem;
+.card-blog__header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 0.5rem;
+    padding-bottom: 2rem;
 }

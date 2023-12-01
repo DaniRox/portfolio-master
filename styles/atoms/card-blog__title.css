@@ -1,0 +1,11 @@
+.card-blog__title{
+    width: 12rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-family: var(--font-montserrat);
+    color: var(--davys-gray);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+    line-height: 2rem;
+}

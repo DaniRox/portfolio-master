@@ -1,8 +1,8 @@
-.card-profile__info{
+.experience__year{
     font-family: var(--font-montserrat);
     color: var(--gray);
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 500;
-    margin: 0.5rem 0;
+    padding-right: 2rem;
     line-height: 1.8rem;
 }

@@ -1,5 +1,7 @@
 .measurer-color2{
-    height: 1rem;
-    width: 3rem;
-    background-color: gray;
+    height: 0.6rem;
+    width: 15rem;
+    background-color: var(--silver);
+    border-radius: 2rem;
+    position: absolute;
 }

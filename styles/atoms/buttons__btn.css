@@ -1,0 +1,17 @@
+.buttons__btn{
+    background-color: transparent;
+    border: 1px solid var(--davys-gray);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.8rem;
+    font-family: var(--font-montserrat);
+    color: var(--davys-gray);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.buttons__btn:hover{
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+}
