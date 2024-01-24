@@ -1,4 +1,5 @@
-.card-profile__title{
+.text-profile__info-profile{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }

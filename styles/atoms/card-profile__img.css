@@ -1,5 +1,19 @@
 .card-profile__img{
-    height: 100%;
-    width: auto;
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    overflow: hidden;
     border-radius: 1rem;
+}
+
+
+@media only screen and (min-width: 770px){
+    .card-profile__img{
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+
 }

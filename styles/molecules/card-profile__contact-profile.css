@@ -1,0 +1,5 @@
+.card-profile__contact-profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,9 +1,0 @@
-.card-hobbies{
-    background-color: var(--white);
-    padding: 2rem;
-    margin-right: -6rem;
-    border-radius: 1rem;
-    grid-column-start: span 2;
-    grid-row-start: span 2;
-    box-shadow: 9px 12px 22px 8px rgba(130,130,130,0.38);
-}

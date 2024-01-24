@@ -14,13 +14,13 @@
     <!-- atoms -->
     <link rel="stylesheet" href="./styles/atoms/fonts.css">
     <link rel="stylesheet" href="./styles/atoms/colors.css">
-    <link rel="stylesheet" href="./styles/atoms/title.css">
-    <link rel="stylesheet" href="./styles/atoms/subtitle.css">
-    <link rel="stylesheet" href="./styles/atoms/email.css">
-    <link rel="stylesheet" href="./styles/atoms/phone.css">
-    <link rel="stylesheet" href="./styles/atoms/icon-email.css">
-    <link rel="stylesheet" href="./styles/atoms/icon-phone.css">
-    <link rel="stylesheet" href="./styles/atoms/card-profile__info.css">
+    <link rel="stylesheet" href="./styles/atoms/title-profile__title.css">
+    <link rel="stylesheet" href="./styles/atoms/title-profile__subtitle.css">
+    <link rel="stylesheet" href="./styles/atoms/contact-profile__contact.css">
+    <link rel="stylesheet" href="./styles/atoms/info-profile__info.css">
+    <link rel="stylesheet" href="./styles/atoms/icon-contact.css">
+
+    
     <link rel="stylesheet" href="./styles/atoms/card-profile__img.css">
     <link rel="stylesheet" href="./styles/atoms/card-technologies__title.css">
     <link rel="stylesheet" href="./styles/atoms/technologie-item.css">
@@ -43,17 +43,14 @@
     <link rel="stylesheet" href="./styles/atoms/div-hobbie-img.css">
     <link rel="stylesheet" href="./styles/atoms/hobbie-img.css">
     <link rel="stylesheet" href="./styles/atoms/buttons__btn.css">
+
     <!-- molecules -->
-    <link rel="stylesheet" href="./styles/molecules/card-profile__texts.css">
-    <link rel="stylesheet" href="./styles/molecules/card-profile__title.css">
-    <link rel="stylesheet" href="./styles/molecules/card-profile__contact.css">
-    <link rel="stylesheet" href="./styles/molecules/card-profile__header-profile.css">
-    <link rel="stylesheet" href="./styles/molecules/card-technologies__item.css">
-    <link rel="stylesheet" href="./styles/molecules/card-blog__header.css">
-    <link rel="stylesheet" href="./styles/molecules/card-experiences__experience.css">
-    <link rel="stylesheet" href="./styles/molecules/experience__text.css">
-    <link rel="stylesheet" href="./styles/molecules/card-hobbies__hobbie.css">
-    <link rel="stylesheet" href="./styles/atoms/card-projects__title.css">
+    <link rel="stylesheet" href="./styles/molecules/card-profile__texts-profile.css">
+    <link rel="stylesheet" href="./styles/molecules/card-profile__contact-profile.css">
+    <link rel="stylesheet" href="./styles/molecules/header-profile__title-profile.css">
+    <link rel="stylesheet" href="./styles/molecules/text-profile__info-profile.css">
+
+
     <!-- organisms -->
     <link rel="stylesheet" href="./styles/organisms/card-profile.css">
     <link rel="stylesheet" href="./styles/organisms/card-technologies.css">
@@ -62,8 +59,9 @@
     <link rel="stylesheet" href="./styles/organisms/card-experiences.css">
     <link rel="stylesheet" href="./styles/organisms/card-projects.css">
     <link rel="stylesheet" href="./styles/organisms/card-project.css">
+
     <!-- templates -->
-    <link rel="stylesheet" href="./styles/templates/body.css">
+    <link rel="stylesheet" href="./styles/templates/container.css">
 
     <link rel="icon" href="devchallenges.png" />
 
@@ -76,29 +74,34 @@
     <title>Portafolio</title>
 
   </head>
-  <body>
+  <body class="container">
 
     <div class="card-profile">
       <img src="./assets/_ad172676-c53a-4a5e-b90d-8c281ca0825a.jpeg" alt="" class="card-profile__img">
-      <div class="card-profile__texts">
-        <div class="card-profile__header-profile">
+      <div class="card-profile__texts-profile">
 
-          <div class="card-profile__title">
-            <h2 class="title">Billy Pearson</h2>
-            <span class="subtitle">Front-end developer</span>
+        <div class="text-profile__header-profile">
+
+          <div class="header-profile__title-profile">
+            <h2 class="title-profile__title">Billy Pearson</h2>
+            <span class="title-profile__subtitle">Front-end developer</span>
           </div>
 
-          <div class="card-profile__contact">
-            <a href="" class="email"><img src="./assets/icon-email.svg" alt="" class="icon-email">billy@example.com</a>
-            <a href="" class="phone"><img src="./assets/icon-phone.svg" alt="" class="icon-phone">(+603) 546 624 342</a>
+          <div class="card-profile__contact-profile">
+            <a href="" class="contact-profile__contact"><img src="./assets/envelope-fill.svg" alt="" class="icon-contact">billy@example.com</a>
+            <a href="" class="contact-profile__contact"><img src="./assets/telephone-fill.svg" alt="" class="icon-contact">(+603) 546 624 342</a>
           </div>
 
         </div>
-        <p class="card-profile__info">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
-        <p class="card-profile__info">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+
+        <div class="text-profile__info-profile">
+          <p class="info-profile__info">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
+          <p class="info-profile__info">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+        </div>
+        
       </div>
     </div>
-
+<!--
     <div class="card-technologies">
       <h2 class="card-technologies__title">Front end</h2>
       <div class="card-technologies__item">
@@ -150,7 +153,7 @@
       <div class="card-blog__header">
         <h2 class="card-blog__title">How to<br>organize your CSS</h2>
         <div class="card-blog__img">
-          <img src="./assets/_81307a23-4c76-48dd-b04a-f083af765633.jpeg" alt="" class="blog-img">
+          <img src="" alt="" class="blog-img">
         </div>
         
       </div>
@@ -162,7 +165,7 @@
       <h2 class="card-hobbies__title">Hobbies</h2>
       <div class="card-hobbies__hobbie">
         <div class="div-hobbie-img">
-          <img src="./assets/gamming.jpg" alt="" class="hobbie-img">
+          <img src="" alt="" class="hobbie-img">
         </div>
         
         <h3 class="hobbie-title">Gaming</h3>
@@ -170,7 +173,7 @@
       </div>
       <div class="card-hobbies__hobbie">
         <div class="div-hobbie-img">
-          <img src="./assets/cooking.jpg" alt="" class="hobbie-img">
+          <img src="" alt="" class="hobbie-img">
         </div>
        
         <h3 class="hobbie-title">Cooking</h3>
@@ -178,7 +181,7 @@
       </div>
       <div class="card-hobbies__hobbie">
         <div class="div-hobbie-img">
-          <img src="./assets/reading.jpg" alt="" class="hobbie-img">
+          <img src="" alt="" class="hobbie-img">
         </div>
         
         <h3 class="hobbie-title">Reading</h3>
@@ -189,7 +192,7 @@
     <div class="card-experiences">
       <h2 class="card-experiences__title">Experiences</h2>
       <div class="card-experiences__experience">
-        <img src="./assets/adidas.png" alt="" class="experience__img">
+        <img src="" alt="" class="experience__img">
         <div class="experience__text">
           <span class="experience__year">Feb 2017 - Current</span>
           <h3 class="experience__title">Front-end developer</h3>
@@ -197,7 +200,7 @@
         </div>
       </div>
     <div class="card-experiences__experience">
-        <img src="./assets/hym.png" alt="" class="experience__img">
+        <img src="" alt="" class="experience__img">
         <div class="experience__text">
           <span class="experience__year">Aug 2016 - Feb 2018</span>
           <h3 class="experience__title">Full-stack developer</h3>
@@ -247,6 +250,6 @@
         <button class="btn-code">Code</button>
       </div>
     </div>
-
+-->
   </body>
 </html>

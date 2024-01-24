@@ -1,8 +1,8 @@
-.experience__year{
+.info-profile__info{
     font-family: var(--font-montserrat);
     color: var(--gray);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
-    padding-right: 2rem;
+    margin: 0.5rem 0;
     line-height: 1.8rem;
 }
