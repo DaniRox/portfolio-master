@@ -1,0 +1,20 @@
+.card-projects{
+    grid-column-start: span 6;
+    grid-row-start: span 2;
+    background-color: var(--white);
+    box-shadow: 0px 15px 20px -12px rgba(130,130,130,1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 770px){
+    .card-projects{
+        grid-row-start: span 2;
+    }
+}

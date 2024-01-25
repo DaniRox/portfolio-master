@@ -1,0 +1,13 @@
+.card-blog__header-blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 770px){
+    .card-blog__header-blog{
+        flex-direction: row;
+    }
+}

@@ -1,5 +1,6 @@
 .header-profile__title-profile{
-    width: 100%;
+    margin: 0.3rem 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }

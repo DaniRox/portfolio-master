@@ -1,0 +1,40 @@
+.marker{
+    height: 0.6rem;
+    background-color: var(--silver);
+    border-radius: 2rem;
+}
+
+.marker--color1{
+    background-color: var(--blue);
+    margin-right: -1rem;
+    z-index: 1;
+}
+
+.marker--react{
+    width: 70%;
+}
+
+.marker--js{
+    width: 220%;
+}
+
+.marker--css{
+    width: 300%;
+}
+
+.marker--vue{
+    width: 70%;
+}
+
+.marker--redux{
+    width: 220%;
+}
+
+.marker--react-native{
+    width: 300%;
+}
+
+.marker--color2{
+    width: 50%;
+    background-color: var(--silver);
+}

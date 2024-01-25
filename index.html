@@ -14,42 +14,51 @@
     <!-- atoms -->
     <link rel="stylesheet" href="./styles/atoms/fonts.css">
     <link rel="stylesheet" href="./styles/atoms/colors.css">
+    <link rel="stylesheet" href="./styles/atoms/card-profile__img.css">
     <link rel="stylesheet" href="./styles/atoms/title-profile__title.css">
     <link rel="stylesheet" href="./styles/atoms/title-profile__subtitle.css">
     <link rel="stylesheet" href="./styles/atoms/contact-profile__contact.css">
     <link rel="stylesheet" href="./styles/atoms/info-profile__info.css">
     <link rel="stylesheet" href="./styles/atoms/icon-contact.css">
-
-    
-    <link rel="stylesheet" href="./styles/atoms/card-profile__img.css">
     <link rel="stylesheet" href="./styles/atoms/card-technologies__title.css">
-    <link rel="stylesheet" href="./styles/atoms/technologie-item.css">
-    <link rel="stylesheet" href="./styles/atoms/measurer.css">
-    <link rel="stylesheet" href="./styles/atoms/measurer--color1.css">
-    <link rel="stylesheet" href="./styles/atoms/measurer-color2.css">
-    <link rel="stylesheet" href="./styles/atoms/card-blog__img.css">
-    <link rel="stylesheet" href="./styles/atoms/blog-img.css">
+    <link rel="stylesheet" href="./styles/atoms/item-technologies__title.css">
+    <link rel="stylesheet" href="./styles/atoms/marker.css">
+    <link rel="stylesheet" href="./styles/atoms/header-blog__title.css">
+    <link rel="stylesheet" href="./styles/atoms/card-blog__text.css">
     <link rel="stylesheet" href="./styles/atoms/card-blog__subtitle.css">
-    <link rel="stylesheet" href="./styles/atoms/card-blog__title.css">
-    <link rel="stylesheet" href="./styles/atoms/card_blog__text.css">
-    <link rel="stylesheet" href="./styles/atoms/card-experiences__title.css">
-    <link rel="stylesheet" href="./styles/atoms/experience__txt.css">
-    <link rel="stylesheet" href="./styles/atoms/experience__year.css">
-    <link rel="stylesheet" href="./styles/atoms/experience__title.css">
-    <link rel="stylesheet" href="./styles/atoms/experience__img.css">
+    <link rel="stylesheet" href="./styles/atoms/blog-img.css">
+    <link rel="stylesheet" href="./styles/atoms/card-blog__link.css">
     <link rel="stylesheet" href="./styles/atoms/card-hobbies__title.css">
-    <link rel="stylesheet" href="./styles/atoms/hobbie-title.css">
-    <link rel="stylesheet" href="./styles/atoms/hobbie-txt.css">
-    <link rel="stylesheet" href="./styles/atoms/div-hobbie-img.css">
+    <link rel="stylesheet" href="./styles/atoms/card-hobbies__title.css">
+    <link rel="stylesheet" href="./styles/atoms/item-hobbie__title.css">
+    <link rel="stylesheet" href="./styles/atoms/item-hobbie__txt.css">
     <link rel="stylesheet" href="./styles/atoms/hobbie-img.css">
+    <link rel="stylesheet" href="./styles/atoms/card-experiences__title.css">
+    <link rel="stylesheet" href="./styles/atoms/item-experience__img.css">
+    <link rel="stylesheet" href="./styles/atoms/texts-experience__txt.css">
+    <link rel="stylesheet" href="./styles/atoms/texts-experience__title.css">
+    <link rel="stylesheet" href="./styles/atoms/texts-experience__year.css">
+    <link rel="stylesheet" href="./styles/atoms/card-projects__title.css">
     <link rel="stylesheet" href="./styles/atoms/buttons__btn.css">
-
+    <link rel="stylesheet" href="./styles/atoms/project__title.css">
+    <link rel="stylesheet" href="./styles/atoms/project__txt.css">
+    <link rel="stylesheet" href="./styles/atoms/btn-project.css">
+    <link rel="stylesheet" href="./styles/atoms/project__img.css">
     <!-- molecules -->
     <link rel="stylesheet" href="./styles/molecules/card-profile__texts-profile.css">
     <link rel="stylesheet" href="./styles/molecules/card-profile__contact-profile.css">
     <link rel="stylesheet" href="./styles/molecules/header-profile__title-profile.css">
     <link rel="stylesheet" href="./styles/molecules/text-profile__info-profile.css">
-
+    <link rel="stylesheet" href="./styles/molecules/text-profile__header-profile.css">
+    <link rel="stylesheet" href="./styles/molecules/card-technologies__item-technologies.css">
+    <link rel="stylesheet" href="./styles/molecules/item-technologies__marker.css">
+    <link rel="stylesheet" href="./styles/molecules/card-blog__header-blog.css">
+    <link rel="stylesheet" href="./styles/molecules/header-blog__img.css">
+    <link rel="stylesheet" href="./styles/molecules/item-hobbie__img.css">
+    <link rel="stylesheet" href="./styles/molecules/item-experience__texts-experience.css">
+    <link rel="stylesheet" href="./styles/molecules/card-hobbies__item-hobbie.css">
+    <link rel="stylesheet" href="./styles/molecules/card-projects__buttons.css">
+    <link rel="stylesheet" href="./styles/molecules/project__buttons.css">
 
     <!-- organisms -->
     <link rel="stylesheet" href="./styles/organisms/card-profile.css">
@@ -59,6 +68,7 @@
     <link rel="stylesheet" href="./styles/organisms/card-experiences.css">
     <link rel="stylesheet" href="./styles/organisms/card-projects.css">
     <link rel="stylesheet" href="./styles/organisms/card-project.css">
+    <link rel="stylesheet" href="./styles/molecules/card-experiences__item-experience.css">
 
     <!-- templates -->
     <link rel="stylesheet" href="./styles/templates/container.css">
@@ -101,110 +111,122 @@
         
       </div>
     </div>
-<!--
+
     <div class="card-technologies">
+
       <h2 class="card-technologies__title">Front end</h2>
-      <div class="card-technologies__item">
-        <span class="technologie-item">React</span>
-        <div class="measurer">
-          <div class="measurer-color1 measurer-color1--react"></div>
-          <div class="measurer-color2"></div>
+
+      <div class="card-technologies__item-technologies">
+        <span class="item-technologies__title">React</span>
+        <div class="item-technologies__marker">
+          <div class="marker marker--color1 marker--react"></div>
+          <div class="marker marker--color2"></div>
         </div>
       </div>
-      <div class="card-technologies__item">
-        <span class="technologie-item">Javascript</span>
-        <div class="measurer">
-          <div class="measurer-color1 measurer-color1--js"></div>
-          <div class="measurer-color2"></div>
+
+      <div class="card-technologies__item-technologies">
+        <span class="item-technologies__title">Javascript</span>
+        <div class="item-technologies__marker">
+          <div class="marker marker--color1 marker--js"></div>
+          <div class="marker marker--color2"></div>
         </div>
       </div>
-      <div class="card-technologies__item">
-        <span class="technologie-item">CSS</span>
-        <div class="measurer">
-          <div class="measurer-color1 measurer-color1--css"></div>
-          <div class="measurer-color2"></div>
+
+      <div class="card-technologies__item-technologies">
+        <span class="item-technologies__title">CSS</span>
+        <div class="item-technologies__marker">
+          <div class="marker marker--color1 marker--css"></div>
+          <div class="marker marker--color2"></div>
         </div>
       </div>
-      <div class="card-technologies__item">
-        <span class="technologie-item">Vue</span>
-        <div class="measurer">
-          <div class="measurer-color1 measurer-color1--vue"></div>
-          <div class="measurer-color2"></div>
+
+      <div class="card-technologies__item-technologies">
+        <span class="item-technologies__title">Vue</span>
+        <div class="item-technologies__marker">
+          <div class="marker marker--color1 marker--vue"></div>
+          <div class="marker marker--color2"></div>
         </div>
       </div>
-      <div class="card-technologies__item">
-        <span class="technologie-item">Redux</span>
-        <div class="measurer">
-          <div class="measurer-color1 measurer-color1--redux"></div>
-          <div class="measurer-color2"></div>
+
+      <div class="card-technologies__item-technologies">
+        <span class="item-technologies__title">Redux</span>
+        <div class="item-technologies__marker">
+          <div class="marker marker--color1 marker--redux"></div>
+          <div class="marker marker--color2"></div>
         </div>
       </div>
-      <div class="card-technologies__item">
-        <span class="technologie-item">React Native</span>
-        <div class="measurer">
-          <div class="measurer-color1 measurer-color1--react-native"></div>
-          <div class="measurer-color2"></div>
+
+      <div class="card-technologies__item-technologies">
+        <span class="item-technologies__title">React Native</span>
+        <div class="item-technologies__marker">
+          <div class="marker marker--color1 marker--react-native"></div>
+          <div class="marker marker--color2"></div>
         </div>
       </div>
+
     </div>
 
     <div class="card-blog">
       <span class="card-blog__subtitle">Blog</span>
-      <div class="card-blog__header">
-        <h2 class="card-blog__title">How to<br>organize your CSS</h2>
-        <div class="card-blog__img">
-          <img src="" alt="" class="blog-img">
+      <div class="card-blog__header-blog">
+        <h2 class="header-blog__title">How to<br>organize your<br>CSS</h2>
+        <div class="header-blog__img">
+          <img src="./assets/_81307a23-4c76-48dd-b04a-f083af765633.jpeg" alt="" class="blog-img">
         </div>
         
       </div>
-      <p class="card_blog__text">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.<br>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-      <a href="" class="card-blog__link"></a>
+      <p class="card-blog__text">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.<br>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+      <a href="" class="card-blog__link">dev.to</a>
     </div>
 
     <div class="card-hobbies">
+
       <h2 class="card-hobbies__title">Hobbies</h2>
-      <div class="card-hobbies__hobbie">
-        <div class="div-hobbie-img">
-          <img src="" alt="" class="hobbie-img">
+
+      <div class="card-hobbies__item-hobbie">
+        <div class="item-hobbie__img">
+          <img src="./assets/gamming.jpg" alt="" class="hobbie-img">
         </div>
         
-        <h3 class="hobbie-title">Gaming</h3>
-        <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
+        <h3 class="item-hobbie__title">Gaming</h3>
+        <span class="item-hobbie__txt">Quisque feugiat malesuada molestie.</span>
       </div>
-      <div class="card-hobbies__hobbie">
-        <div class="div-hobbie-img">
-          <img src="" alt="" class="hobbie-img">
+
+      <div class="card-hobbies__item-hobbie">
+        <div class="item-hobbie__img">
+          <img src="./assets/cooking.jpg" alt="" class="hobbie-img">
         </div>
        
-        <h3 class="hobbie-title">Cooking</h3>
-        <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
+        <h3 class="item-hobbie__title">Cooking</h3>
+        <span class="item-hobbie__txt">Quisque feugiat malesuada molestie.</span>
       </div>
-      <div class="card-hobbies__hobbie">
-        <div class="div-hobbie-img">
-          <img src="" alt="" class="hobbie-img">
+
+      <div class="card-hobbies__item-hobbie">
+        <div class="item-hobbie__img">
+          <img src="./assets/reading.jpg" alt="" class="hobbie-img">
         </div>
-        
-        <h3 class="hobbie-title">Reading</h3>
-        <span class="hobbie-txt">Quisque feugiat malesuada molestie.</span>
+        <h3 class="item-hobbie__title">Reading</h3>
+        <span class="item-hobbie__txt">Quisque feugiat malesuada molestie.</span>
       </div>
+
     </div>
 
     <div class="card-experiences">
       <h2 class="card-experiences__title">Experiences</h2>
-      <div class="card-experiences__experience">
-        <img src="" alt="" class="experience__img">
-        <div class="experience__text">
-          <span class="experience__year">Feb 2017 - Current</span>
-          <h3 class="experience__title">Front-end developer</h3>
-          <p class="experience__txt">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+      <div class="card-experiences__item-experience">
+        <img src="./assets/adidas.png" alt="" class="item-experience__img">
+        <div class="item-experience__texts-experience">
+          <span class="texts-experience__year">Feb 2017 - Current</span>
+          <h3 class="texts-experience__title">Front-end developer</h3>
+          <p class="texts-experience__txt">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
         </div>
       </div>
-    <div class="card-experiences__experience">
-        <img src="" alt="" class="experience__img">
-        <div class="experience__text">
-          <span class="experience__year">Aug 2016 - Feb 2018</span>
-          <h3 class="experience__title">Full-stack developer</h3>
-          <p class="experience__txt">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+    <div class="card-experiences__item-experience">
+        <img src="./assets/hym.png" alt="" class="item-experience__img">
+        <div class="item-experience__texts-experience">
+          <span class="texts-experience__year">Aug 2016 - Feb 2018</span>
+          <h3 class="texts-experience__title">Full-stack developer</h3>
+          <p class="texts-experience__txt">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
         </div>
       </div>
     </div>
@@ -219,37 +241,37 @@
     </div>
 
     <div class="card-project">
-      <img src="" alt="" class="project__img">
-      <span class="project__span"></span>
+      <img src="./assets/Screenshot-recipe.png" alt="" class="project__img">
+      <span class="project__txt">#css</span>
       <h3 class="project__title">Recipe Blog</h3>
       <p class="project__txt">In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
       <div class="project__buttons">
-        <button class="btn--demo">Demo</button>
-        <button class="btn-code">Code</button>
+        <button class="btn-project">Demo</button>
+        <button class="btn-project">Code</button>
       </div>
     </div>
 
     <div class="card-project">
-      <img src="" alt="" class="project__img">
-      <span class="project__span"></span>
+      <img src="./assets/Screenshot-gallery.png" alt="" class="project__img">
+      <span class="project__txt"></span>
       <h3 class="project__title">My Gallery</h3>
       <p class="project__txt">In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
       <div class="project__buttons">
-        <button class="btn--demo">Demo</button>
-        <button class="btn-code">Code</button>
+        <button class="btn-project">Demo</button>
+        <button class="btn-project">Code</button>
       </div>
     </div>
 
     <div class="card-project">
-      <img src="" alt="" class="project__img">
-      <span class="project__span"></span>
+      <img src="./assets/Screenshot-checkout.png" alt="" class="project__img">
+      <span class="project__txt"></span>
       <h3 class="project__title">Checkout</h3>
       <p class="project__txt">In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
       <div class="project__buttons">
-        <button class="btn--demo">Demo</button>
-        <button class="btn-code">Code</button>
+        <button class="btn-project">Demo</button>
+        <button class="btn-project">Code</button>
       </div>
     </div>
--->
+
   </body>
 </html>

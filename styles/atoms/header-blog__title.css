@@ -1,7 +1,8 @@
-.title-profile__title{
+.header-blog__title{
     font-family: var(--font-montserrat);
     color: var(--davys-gray);
     font-size: 1.3rem;
-    font-weight: 600;
-    margin: 0.3rem 0;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    line-height: 1.7rem;
 }

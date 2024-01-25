@@ -1,0 +1,22 @@
+.card-blog__text{
+    font-family: var(--font-montserrat);
+    color: var(--gray);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.4rem 0;
+    line-height: 1.4rem;
+}
+
+
+@media only screen and (min-width: 770px){
+    .card-blog__text{
+        margin: 1.5rem 0;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .card-blog__text{
+        width: 80%;
+        margin: 2.5rem 0;
+    }
+}

@@ -1,0 +1,9 @@
+.item-hobbie__title{
+    font-family: var(--font-montserrat);
+    color: var(--davys-gray);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.8rem 0 0.1rem;
+    line-height: 1.5rem;
+}
+

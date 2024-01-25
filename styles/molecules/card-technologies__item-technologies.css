@@ -1,0 +1,7 @@
+.card-technologies__item-technologies{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.3rem 0;
+}

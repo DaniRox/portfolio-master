@@ -1,7 +1,7 @@
-.title-profile__title{
+.texts-experience__title{
     font-family: var(--font-montserrat);
     color: var(--davys-gray);
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    margin: 0.3rem 0;
+    line-height: 1.5rem;
 }

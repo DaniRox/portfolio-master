@@ -1,6 +1,6 @@
-.card-profile{
+.card-technologies{
     grid-column-start: span 6;
-    grid-row-start: span 8;
+    grid-row-start: span 4;
     background-color: var(--white);
     box-shadow: 0px 15px 20px -12px rgba(130,130,130,1);
     border-radius: 1rem;
@@ -8,22 +8,21 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 
 @media only screen and (min-width: 770px){
-    .card-profile{
-        grid-column-start: span 6;
-        grid-row-start: span 7;
+    .card-technologies{
+        grid-column-start: span 2;
+        grid-row-start: span 4;
     }
 }
 
 @media only screen and (min-width: 1080px){
-    .card-profile{
-        grid-column-start: span 6;
+    .card-technologies{
+        grid-column-start: span 2;
         grid-row-start: span 4;
-        flex-direction: row;
-        align-items: flex-start;
     }
 }

@@ -1,0 +1,13 @@
+.item-experience__img{
+    display: none;
+}
+
+
+@media only screen and (min-width: 770px){
+    .item-experience__img{
+        width: 6rem;
+        height: auto;
+        padding: 0.5rem 2rem;
+        display: flex;
+    }    
+}

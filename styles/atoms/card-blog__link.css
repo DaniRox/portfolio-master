@@ -1,0 +1,8 @@
+.card-blog__link{
+    font-family: var(--font-montserrat);
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    text-decoration: none;
+}

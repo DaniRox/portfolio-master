@@ -1,0 +1,5 @@
+.card-hobbies__item-hobbie{
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem 0;
+}

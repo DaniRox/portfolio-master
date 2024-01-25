@@ -1,0 +1,21 @@
+.text-profile__header-profile{
+    margin-bottom: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 770px){
+    .text-profile__header-profile{
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .text-profile__header-profile{
+        margin-bottom: 1rem;
+    }
+}
