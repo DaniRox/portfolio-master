@@ -27,11 +27,8 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -45,14 +42,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - What was your experience?
 - What have you learned/improved?
 - Your wisdom? :)
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
