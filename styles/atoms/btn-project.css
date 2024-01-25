@@ -2,7 +2,7 @@
     width: 6rem;
     font-family: var(--font-montserrat);
     color: var(--blue);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.03rem;
     background-color: transparent;
@@ -10,6 +10,8 @@
     border: 1px solid var(--blue);
     padding: 0.7rem 1rem;
     margin: 0.3rem 0;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .btn-project:hover{

@@ -1,0 +1,14 @@
+.card-project__img{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1080px){
+    .card-project__img{
+        width: 100%;
+        height: 40%;
+        overflow: hidden;
+        border-radius: 0.6rem;
+        display: flex;
+    }
+}

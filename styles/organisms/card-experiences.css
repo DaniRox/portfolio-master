@@ -1,6 +1,6 @@
 .card-experiences{
     grid-column-start: span 6;
-    grid-row-start: span 5;
+    grid-row-start: span 6;
     background-color: var(--white);
     box-shadow: 0px 15px 20px -12px rgba(130,130,130,1);
     border-radius: 1rem;

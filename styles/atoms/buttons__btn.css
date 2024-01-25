@@ -8,6 +8,8 @@
     border-radius: 0.7rem;
     border: 1px solid var(--davys-gray);
     padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .buttons__btn:hover{

@@ -3,7 +3,7 @@
     padding: 3rem 3rem;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(90, 2.5rem);
+    grid-template-rows: repeat(48, 2.5rem);
     grid-auto-rows: auto;
     grid-gap: 2.5rem;
     justify-content: center;
@@ -11,9 +11,16 @@
 
 
 
+@media only screen and (min-width: 770px){
+    .container{
+        grid-template-rows: repeat(30, 2.5rem);
+    }
+}
+
 @media only screen and (min-width: 1080px){
     .container{
         grid-template-columns: repeat(6, 8rem);
+        grid-template-rows: repeat(28, 2.5rem);
         padding: 3rem 6rem;
     }
 }
